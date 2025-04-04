@@ -97,7 +97,7 @@
     button {
       width: 100%;
       padding: 1rem;
-      background: #2da58d;
+      background: #6a0dad;
       color: white;
       border: none;
       border-radius: 8px;
@@ -107,7 +107,7 @@
       transition: background-color 0.3s;
 
       &:hover {
-        background: darken(#2da58d, 5%);
+        background: darken(#6a0dad, 5%);
       }
     }
   }

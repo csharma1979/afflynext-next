@@ -112,11 +112,11 @@ export default function Header() {
                         href={service.href}
                         className="group flex items-start gap-3 p-3 rounded-lg hover:bg-purple-50 transition-colors"
                       >
-                        <div className="p-2 bg-purple-100 rounded-lg text-[#2da58d] group-hover:text-[#2da58d]    transition-colors">
+                        <div className="p-2 bg-purple-100 rounded-lg text-[#6A0DAD] group-hover:text-[#6A0DAD]    transition-colors">
                           {service.icon}
                         </div>
                         <div>
-                          <h3 className="font-medium text-gray-900 group-hover:text-[#2da58d] ">
+                          <h3 className="font-medium text-gray-900 group-hover:text-[#6A0DAD] ">
                             {service.title}
                           </h3>
                           <p className="text-sm text-gray-500 mt-1">
@@ -161,7 +161,7 @@ export default function Header() {
 
           <Link
             href="/contact"
-            className="hidden md:flex items-center px-5 py-2.5 bg-[#008080] text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 shadow hover:shadow-md"
+            className="hidden md:flex items-center px-5 py-2.5 bg-[#6a0dad] text-white rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 shadow hover:shadow-md"
           >
             Get Started
           </Link>
@@ -221,7 +221,7 @@ export default function Header() {
                           className="flex items-center gap-3 p-3 rounded-lg hover:bg-purple-50 transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
-                          <div className="p-2 bg-purple-100 rounded-lg text-[#2da58d] ">
+                          <div className="p-2 bg-purple-100 rounded-lg text-[#6A0DAD] ">
                             {service.icon}
                           </div>
                           <span className="font-medium">{service.title}</span>
@@ -230,7 +230,7 @@ export default function Header() {
                     </div>
                     <Link
                       href="/services"
-                      className="block mt-4 text-center text-[#2da58d]  font-medium py-2 hover:bg-purple-50 rounded-md transition-colors"
+                      className="block mt-4 text-center text-[#6A0DAD]  font-medium py-2 hover:bg-purple-50 rounded-md transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       View all services

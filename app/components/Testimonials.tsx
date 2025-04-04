@@ -104,7 +104,7 @@ export default function Testimonials() {
             className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 z-10 h-12 w-12 items-center justify-center rounded-full bg-white shadow-lg hover:bg-gray-50 transition-all duration-300 hover:shadow-xl border border-gray-200"
             aria-label="Previous testimonial"
           >
-            <ChevronLeft className="h-6 w-6 text-[#2da58d] " />
+            <ChevronLeft className="h-6 w-6 text-[#6A0DAD] " />
           </button>
 
           <button
@@ -112,7 +112,7 @@ export default function Testimonials() {
             className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 z-10 h-12 w-12 items-center justify-center rounded-full bg-white shadow-lg hover:bg-gray-50 transition-all duration-300 hover:shadow-xl border border-gray-200"
             aria-label="Next testimonial"
           >
-            <ChevronRight className="h-6 w-6 text-[#2da58d] " />
+            <ChevronRight className="h-6 w-6 text-[#6A0DAD] " />
           </button>
 
           {/* Testimonials */}
@@ -144,7 +144,7 @@ export default function Testimonials() {
                             width={300}
                           />
                           <div className="absolute -bottom-1 -right-1 bg-indigo-100 p-1 rounded-full">
-                            <Quote className="h-4 w-4 text-[#2da58d] " />
+                            <Quote className="h-4 w-4 text-[#6A0DAD] " />
                           </div>
                         </div>
                         <div className="ml-4">
@@ -189,7 +189,7 @@ export default function Testimonials() {
               }}
               className={`mx-1 h-2 w-8 rounded-full transition-all duration-300 ${
                 currentIndex === index
-                  ? "bg-[#2da58d] "
+                  ? "bg-[#6A0DAD] "
                   : "bg-gray-300 hover:bg-gray-400"
               }`}
               aria-label={`Go to slide ${index + 1}`}

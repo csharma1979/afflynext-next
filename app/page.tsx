@@ -11,6 +11,7 @@ import {
   FaRectangleAd,
   FaVideo,
 } from "react-icons/fa6";
+import Link from "next/link";
 
 import Testimonials from "./components/Testimonials";
 
@@ -92,7 +93,9 @@ const Home = () => {
             We help businesses achieve their online marketing goals with
             cutting-edge digital solutions.
           </p>
-          <button className="cta-button">Get Started</button>
+          <Link href="/contact" className="cta-button">
+            Get Started
+          </Link>
         </div>
       </section>
       <section className="welcome-section">
