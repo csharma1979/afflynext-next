@@ -1,0 +1,435 @@
+@import "../styles/variables";
+
+.home {
+  .hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      135deg,
+      $navy-blue 0%,
+      darken($navy-blue, 10%) 100%
+    );
+    color: white;
+    text-align: center;
+    padding: 2rem;
+
+    .hero-content {
+      max-width: 1200px;
+      width: 85%;
+      margin: 0 auto;
+
+      h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .cta-button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        background-color: $cta-orange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: darken($cta-orange, 5%);
+        }
+      }
+    }
+  }
+
+  .welcome-section {
+    padding: 5rem 0;
+    background-color: white;
+
+    .welcome-content {
+      max-width: 1200px;
+      width: 85%;
+      margin: 0 auto;
+      text-align: center;
+
+      h2 {
+        color: $navy-blue;
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        color: $text-dark;
+        font-size: 1.1rem;
+        line-height: 1.8;
+      }
+    }
+  }
+
+  .services-showcase {
+    padding: 5rem 0;
+    background: $background-light;
+
+    .services-header {
+      width: 85%;
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      text-align: center;
+
+      h2 {
+        color: $navy-blue;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 3px;
+          background: linear-gradient(90deg, $navy-blue, $teal);
+        }
+      }
+
+      p {
+        color: $text-dark;
+        font-size: 1.1rem;
+        line-height: 1.8;
+      }
+    }
+
+    .services-grid {
+      width: 85%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba($navy-blue, 0.05);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .service-icon {
+        font-size: 4rem;
+        color: $teal;
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease;
+      }
+
+      h3 {
+        color: $navy-blue;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+      }
+
+      p {
+        color: $text-dark;
+        line-height: 1.6;
+      }
+
+      .read-more {
+        margin-top: 1.5rem;
+        color: $teal;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s;
+
+        &:hover {
+          color: darken($teal, 10%);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba($navy-blue, 0.1);
+
+        .service-icon {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .why-choose-section {
+    padding: 5rem 0;
+    background: white;
+
+    .why-choose-content {
+      width: 85%;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+
+      h2 {
+        color: $navy-blue;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 3px;
+          background: linear-gradient(90deg, $navy-blue, $teal);
+        }
+      }
+
+      .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+
+        .benefit-card {
+          padding: 2rem;
+          background: white;
+          border-radius: 15px;
+          box-shadow: 0 5px 15px rgba($navy-blue, 0.05);
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: translateY(-5px);
+          }
+
+          h3 {
+            color: $navy-blue;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            color: $text-dark;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+
+  .our-process {
+    padding: 5rem 0;
+    background: linear-gradient(
+      135deg,
+      $navy-blue 0%,
+      darken($navy-blue, 10%) 100%
+    );
+    color: white;
+
+    .process-content {
+      width: 85%;
+      max-width: 1200px;
+      margin: 0 auto;
+
+      h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 3px;
+          background: white;
+        }
+      }
+
+      .process-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+
+        .process-step {
+          display: flex;
+          align-items: flex-start;
+          gap: 2rem;
+          padding: 2rem;
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 15px;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: translateX(10px);
+          }
+
+          .step-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            opacity: 0.9;
+            min-width: 60px;
+          }
+
+          .step-content {
+            h3 {
+              font-size: 1.4rem;
+              margin-bottom: 1rem;
+              opacity: 0.9;
+            }
+
+            p {
+              font-size: 1.1rem;
+              line-height: 1.6;
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    padding: 5rem 0;
+    background: $background-light;
+
+    .testimonials-content {
+      width: 85%;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+
+      h2 {
+        color: $navy-blue;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 3px;
+          background: linear-gradient(90deg, $navy-blue, $teal);
+        }
+      }
+
+      .testimonials-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+
+        .nav-button {
+          background: $navy-blue;
+          color: white;
+          border: none;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          font-size: 1.5rem;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s ease;
+          z-index: 2;
+
+          &:hover {
+            background: $teal;
+          }
+        }
+
+        .testimonials-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 2rem;
+        }
+
+        .testimonial-card {
+          background: white;
+          border-radius: 15px;
+          padding: 2rem;
+          box-shadow: 0 5px 15px rgba($navy-blue, 0.05);
+          transition: transform 0.3s ease;
+          text-align: left;
+
+          &:hover {
+            transform: translateY(-5px);
+          }
+
+          .testimonial-content {
+            .testimonial-text {
+              color: $text-dark;
+              font-size: 1rem;
+              line-height: 1.6;
+              margin-bottom: 1.5rem;
+              font-style: italic;
+            }
+
+            .testimonial-author {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+
+              img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid $navy-blue;
+              }
+
+              .author-info {
+                h4 {
+                  color: $navy-blue;
+                  font-size: 1.1rem;
+                  margin-bottom: 0.3rem;
+                }
+
+                .position {
+                  color: $text-dark;
+                  font-size: 0.9rem;
+                  margin-bottom: 0.2rem;
+                }
+
+                .company {
+                  color: $teal;
+                  font-size: 0.9rem;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

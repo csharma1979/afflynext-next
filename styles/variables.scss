@@ -1,0 +1,42 @@
+// Colors
+$navy-blue: #0a2540; // Primary dark blue color
+$background-light: #f8f9fa; // Light background color
+$text-dark: #333; // Dark text color
+$text-light: #666; // Lighter text color
+$white: #fff; // Pure white
+$black: #000000;
+$white: #ffffff;
+$teal: #2da58d;
+$cta-orange: #ff851b;
+
+// Spacing
+$spacing-unit: 1rem; // Base spacing unit (16px typically)
+
+// Breakpoints
+$breakpoint-sm: 576px; // Small devices (phones)
+$breakpoint-md: 768px; // Medium devices (tablets)
+$breakpoint-lg: 992px; // Large devices (desktops)
+$breakpoint-xl: 1200px; // Extra large devices
+
+// Border
+$border-radius: 4px; // Default border radius
+$border-radius-lg: 15px; // Larger border radius (used in your content)
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 5px 15px rgba(10, 37, 64, 0.05); // Using your navy-blue with opacity
+
+// Font sizes
+$font-size-base: 1rem; // 16px typically
+$font-size-lg: 1.25rem; // 20px
+$font-size-xl: 1.5rem; // 24px
+$font-size-xxl: 2rem; // 32px
+$font-size-xxxl: 2.5rem; // 40px (your h1 size)
+
+// Line heights
+$line-height-base: 1.6; // Used in your paragraphs
+$line-height-heading: 1.2;
+
+// Transition
+$transition-base: all 0.3s ease-in-out;
