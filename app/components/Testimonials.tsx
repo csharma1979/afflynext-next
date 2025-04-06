@@ -10,38 +10,38 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     position: "Marketing Director",
-    company: "TechCorp Solutions",
+    company: "A2zhome services",
     text: "AfflyNext transformed our digital marketing strategy. Their expertise in email campaigns resulted in a 40% increase in our conversion rates within just three months.",
     image: "/images/testimonials/sarah.jpg",
   },
   {
     name: "Michael Chen",
     position: "E-commerce Manager",
-    company: "Global Retail Inc.",
+    company: "Package Transform",
     text: "The team's attention to detail and data-driven approach helped us optimize our campaigns effectively. Our ROI has improved significantly since partnering with them.",
     image: "/images/testimonials/michael.jpg",
   },
   {
     name: "Emma Williams",
     position: "CEO",
-    company: "StartUp Innovations",
+    company: "Energy Transform",
     text: "Working with AfflyNext has been a game-changer for our startup. Their strategic guidance and implementation have helped us establish a strong market presence.",
     image: "/images/testimonials/emma.jpg",
   },
-  {
-    name: "David Martinez",
-    position: "Digital Marketing Head",
-    company: "Retail Solutions",
-    text: "The personalized approach and consistent results make AfflyNext stand out. They're not just service providers; they're growth partners.",
-    image: "/images/testimonials/david.jpg",
-  },
-  {
-    name: "Lisa Thompson",
-    position: "Operations Director",
-    company: "Healthcare Plus",
-    text: "Their understanding of the healthcare industry and compliance requirements is impressive. We've seen remarkable engagement improvements in our campaigns.",
-    image: "/images/testimonials/lisa.jpg",
-  },
+  // {
+  //   name: "David Martinez",
+  //   position: "Digital Marketing Head",
+  //   company: "Retail Solutions",
+  //   text: "The personalized approach and consistent results make AfflyNext stand out. They're not just service providers; they're growth partners.",
+  //   image: "/images/testimonials/david.jpg",
+  // },
+  // {
+  //   name: "Lisa Thompson",
+  //   position: "Operations Director",
+  //   company: "Healthcare Plus",
+  //   text: "Their understanding of the healthcare industry and compliance requirements is impressive. We've seen remarkable engagement improvements in our campaigns.",
+  //   image: "/images/testimonials/lisa.jpg",
+  // },
 ];
 
 export default function Testimonials() {

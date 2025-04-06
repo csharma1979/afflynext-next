@@ -145,12 +145,12 @@ export default function Header() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="text-md font-medium text-[#210237] hover:text-[#582f64] transition-colors"
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="text-md font-medium text-[#210237] hover:text-[#582f64] transition-colors"
@@ -246,13 +246,13 @@ export default function Header() {
               >
                 About
               </Link>
-              <Link
+              {/* <Link
                 href="/blog"
                 className="text-xl font-medium text-[#210237] hover:text-[#582f64] transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className="text-xl font-medium text-[#210237] hover:text-[#582f64] transition-colors py-2"
