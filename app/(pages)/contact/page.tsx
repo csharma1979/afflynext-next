@@ -18,20 +18,20 @@ const Contact = () => {
                 <div>
                   <h3>Visit Us</h3>
                   <p>
-                    123 Business Avenue
+                    No.4 1st Cross Road, Bangalore,
                     <br />
-                    New York, NY 10001
+                    Karnataka, India, 560076.
                   </p>
                 </div>
               </div>
 
-              <div className="info-item">
+              {/* <div className="info-item">
                 <span className="icon">📞</span>
                 <div>
                   <h3>Call Us</h3>
                   <p>+1 (555) 123-4567</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="info-item">
                 <span className="icon">✉️</span>

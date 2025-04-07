@@ -93,14 +93,11 @@ const Footer = () => {
             <ul className="contact-info">
               <li>
                 <span>📍</span>
-                123 Business Avenue
+                No.4 1st Cross Road, Bangalore,
                 <br />
-                New York, NY 10001
+                Karnataka, India, 560076.
               </li>
-              <li>
-                <span>📞</span>
-                +1 (555) 123-4567
-              </li>
+
               <li>
                 <span>✉️</span>
                 contact@afflynext.com
@@ -115,7 +112,8 @@ const Footer = () => {
             <Link href="/terms-conditions">Terms & Conditions</Link>
           </div>
           <p className="copyright">
-            © {new Date().getFullYear()} AfflyNext. All rights reserved.
+            © {new Date().getFullYear()} DIGIEDGE IT SOLUTIONS PRIVATE LIMITED.
+            All rights reserved.
           </p>
         </div>
       </div>

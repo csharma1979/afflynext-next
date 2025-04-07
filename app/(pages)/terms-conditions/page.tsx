@@ -100,10 +100,10 @@ const TermsConditions = () => {
             <p>For any questions about these Terms, please contact us at:</p>
             <p>
               Email: legal@afflynext.com
+              {/* <br />
+              Phone: +1 (555) 123-4567 */}
               <br />
-              Phone: +1 (555) 123-4567
-              <br />
-              Address: 123 Business Avenue, New York, NY 10001
+              Address: No.4 1st Cross Road, Bangalore, Karnataka, India, 560076.
             </p>
           </section>
 
